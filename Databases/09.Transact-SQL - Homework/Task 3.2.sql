@@ -1,0 +1,1 @@
+SELECT dbo.ufn_CalcSum(1000, 12, 2)

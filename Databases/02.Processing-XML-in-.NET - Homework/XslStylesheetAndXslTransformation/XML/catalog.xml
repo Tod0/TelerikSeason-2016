@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog>
+  <album>
+    <name>Djordjano Hits</name>
+    <artist>Djordjano</artist>
+    <year>2015</year>
+    <producer>Zmei Records</producer>
+    <price>55.00</price>
+    <songs>
+      <title>Otivame na kupon</title>
+      <duration>3.17</duration>
+      <title>Kusi gashti i more</title>
+      <duration>4.04</duration>
+    </songs>
+  </album>
+
+  <album>
+    <name>Vechni Hitove</name>
+    <artist>Lili Ivanova</artist>
+    <year>1102</year>
+    <producer>Zmei Records</producer>
+    <price>10.00</price>
+    <songs>
+      <title>Winds</title>
+      <duration>3.52</duration>
+      <title>Camino</title>
+      <duration>4.23</duration>
+    </songs>
+  </album>
+
+  <album>
+    <name>Rado Shisharkata Mix</name>
+    <artist>Rado Shisharkata</artist>
+    <year>2001</year>
+    <producer>Mitio Pishtova</producer>
+    <price>30.50</price>
+    <songs>
+      <title>Shopskata Salata</title>
+      <duration>5.00</duration>
+    </songs>
+  </album>
+</catalog>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students
+    xmlns:students="urn:students">
+    <student>
+        <name>Pesho</name>
+        <sex>Male</sex>
+        <birthDate>12.10.1659</birthDate>
+        <phone>0885433254</phone>
+        <email>mnogoQk@abv.bg</email>
+        <course>Best Course</course>
+        <specialty>Mathematics</specialty>
+        <facultyNumber>31232131</facultyNumber>
+        <exams>
+            <exam>
+                <name>Truden exam</name>
+                <tutor>Gosho</tutor>
+                <score>2.00</score>
+            </exam>
+        </exams>
+        <enrollment>
+            <date>05.09.2001</date>
+            <score>3.00</score>
+            <endorsements>Mathematics, Biology</endorsements>
+        </enrollment>
+    </student>
+
+    <student>
+        <name>Stefka</name>
+        <sex>Female</sex>
+        <birthDate>15.12.2009</birthDate>
+        <phone>5616511256</phone>
+        <email>stefchituUuUu@abv.bg</email>
+        <course>Best Course</course>
+        <specialty>Physics</specialty>
+        <facultyNumber>522010215</facultyNumber>
+        <exams>
+            <exam>
+                <name>Easy exam</name>
+                <tutor>Toncho</tutor>
+                <score>6.00</score>
+            </exam>
+        </exams>
+        <enrollment>
+            <date>08.11.2015</date>
+            <score>4.50</score>
+            <endorsements>Physics, Geography</endorsements>
+        </enrollment>
+    </student>
+</students>
