@@ -1,0 +1,40 @@
+body {
+  background-color: #A9A9A9;
+}
+
+h1 {
+  text-align: center;
+  color: #FAFAD2;
+  font-size: 40px;
+}
+
+h2 {
+  color: #FAFAD2;
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+
+  /* padding: 0; removes the space taken by the already removed dots, but it is not used in the example */
+}
+
+.navTwo {
+  background-color: #D3D3D3;
+}
+
+.navFour {
+  text-decoration: underline;
+}
+
+.sectionContent {
+  font-weight: bold;
+}
+
+.pageFooter {
+  text-align: center;
+  font-weight: bold;
+}

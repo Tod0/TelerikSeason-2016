@@ -1,0 +1,61 @@
+table, th, td {
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    text-align: left;
+    font-weight: normal;
+}
+
+th, td {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+thead {
+    background-color: #56B906;
+}
+
+.contactName {
+    width: 160px;
+}
+
+.city {
+    width: 120px;
+}
+
+.country {
+    width: 140px;
+}
+
+.topLine {
+    border-top: 1px solid black;
+}
+
+.bottomLine {
+    border-bottom: 1px solid black;
+}
+
+.grayBackground {
+    background-color: #ECECD8;
+}
+
+.germany::before {
+    content: url(images/germany.png);
+    padding-right: 5px;
+}
+
+.mexico::before {
+    content: url(images/mexico.png);
+    padding-right: 5px;
+}
+
+.unitedKingdom::before {
+    content: url(images/england.png);
+    padding-right: 5px;
+}

@@ -1,0 +1,36 @@
+nav {
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+}
+
+li {
+  display: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+ul:hover li {
+  display: block;
+  color: #A9A9A9;
+  text-indent: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #888888;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}

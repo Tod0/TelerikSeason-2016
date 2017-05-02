@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Laptop Store</title>
+    <link rel="stylesheet" href="LaptopStore.css">
+  </head>
+  <body>
+    <div id="page">
+      <header>
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="#">Apple</a></li>
+            <li><a href="#">Toshiba</a></li>
+            <li><a href="#">Lenovo</a></li>
+            <li><a href="#">Dell</a></li>
+            <li><a href="#">Asus</a></li>
+            <li><a href="#">Hacer</a></li>
+            <li><a href="#">HP</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div id="content-conteiner">
+          <div id="laptops-conteiner">
+            <fieldset>
+              <legend>&nbsp;Apple MacBook Air&nbsp;</legend>
+              <div class="laptop-image"></div>
+              <p class="price">1300 USD</p>
+              <p class="ssd">64GB SSD</p>
+              <p class="ram">2GB DDR</p>
+              <p class="cpu">Intel Core i5</p>
+            </fieldset>
+            <fieldset>
+              <legend>&nbsp;Apple MacBook Air&nbsp;</legend>
+              <div class="laptop-image"></div>
+              <p class="price">1300 USD</p>
+              <p class="ssd">64GB SSD</p>
+              <p class="ram">2GB DDR</p>
+              <p class="cpu">Intel Core i5</p>
+            </fieldset>
+            <fieldset>
+              <legend>&nbsp;Apple MacBook Air&nbsp;</legend>
+              <div class="laptop-image"></div>
+              <p class="price">1300 USD</p>
+              <p class="ssd">64GB SSD</p>
+              <p class="ram">2GB DDR</p>
+              <p class="cpu">Intel Core i5</p>
+            </fieldset>
+            <fieldset>
+              <legend>&nbsp;Apple MacBook Air&nbsp;</legend>
+              <div class="laptop-image"></div>
+              <p class="price">1300 USD</p>
+              <p class="ssd">64GB SSD</p>
+              <p class="ram">2GB DDR</p>
+              <p class="cpu">Intel Core i5</p>
+            </fieldset>
+            <fieldset>
+              <legend>&nbsp;Apple MacBook Air&nbsp;</legend>
+              <div class="laptop-image"></div>
+              <p class="price">1300 USD</p>
+              <p class="ssd">64GB SSD</p>
+              <p class="ram">2GB DDR</p>
+              <p class="cpu">Intel Core i5</p>
+            </fieldset>
+            <fieldset>
+              <legend>&nbsp;Apple MacBook Air&nbsp;</legend>
+              <div class="laptop-image"></div>
+              <p class="price">1300 USD</p>
+              <p class="ssd">64GB SSD</p>
+              <p class="ram">2GB DDR</p>
+              <p class="cpu">Intel Core i5</p>
+            </fieldset>
+          </div>
+
+          <div id="ranges-conteiner">
+            <p id="pricemin">Min price: <output name="priceminOutputName" id="priceminOutputId">500</output> USD</p>
+            <input type="range" name="priceminInputName" id="priceminInputId" value="500" min="0" max="1000" oninput="priceminOutputId.value = priceminInputId.value">
+            <p id="pricemax">Max price: <output name="pricemaxOutputName" id="pricemaxOutputId">1500</output> USD</p>
+            <input type="range" name="pricemaxInputName" id="pricemaxInputId" value="1500" min="500" max="2500" oninput="pricemaxOutputId.value = pricemaxInputId.value">
+            <p id="minram">Min RAM: <output name="ramminOutputName" id="ramminOutputId">4</output> GB</p>
+            <input type="range" name="ramminInputName" id="ramminInputId" value="4" min="0" max="8" oninput="ramminOutputId.value = ramminInputId.value">
+            <p id="maxram">Max RAM: <output name="rammaxOutputName" id="rammaxOutputId">16</output> GB</p>
+            <input type="range" name="rammaxInputName" id="rammaxInputId" value="16" min="4" max="28" oninput="rammaxOutputId.value = rammaxInputId.value">
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

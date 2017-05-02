@@ -1,0 +1,147 @@
+#webpage {
+  padding: 3px;
+  border: 1px solid black;
+  background-color: #F1F1F1;
+  font-family: Arial;
+  font-size: 12px;
+  width: 801px;
+}
+
+#nav-conteiner {
+  margin-right: 15px;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+        #nav-conteiner ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+
+        #nav-conteiner h3 {
+          margin: 15px 0 0 0;
+          font-size: 12px;
+          font-weight: bold;
+          color: #981E1C;
+        }
+
+        #nav-conteiner aside a {
+          text-decoration: none;
+          color: #000;
+        }
+
+        #nav-conteiner aside ul li a:hover {
+          text-decoration: underline;
+        }
+
+.home {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home::before {
+  content: url(images/home-icon.png);
+}
+
+#main-conteiner {
+  padding: 5px;
+  border: 1px solid #808080;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  height: 590px;
+}
+
+        #main-conteiner h1 {
+          font-size: 20px;
+        }
+
+        #main-conteiner span.left-arrow {
+          position: absolute;
+          left: 1px;
+          top: 1px;
+        }
+
+        #main-conteiner span.right-arrow {
+          position: absolute;
+          right: 1px;
+          top: 1px;
+        }
+
+        #main-conteiner button.button {
+          margin-right: 3px;
+          padding: 2px;
+          border: 1px solid black;
+          background-color: white;
+          width: 100px;
+          position: relative;
+        }
+
+        #main-conteiner h2 {
+          margin-top: 0;
+          padding: 0 0 0 5px;
+          font-size: 14px;
+          background-color: #808080;
+          color: white;
+        }
+
+        #main-conteiner #css-logo {
+          margin-right: 10px;
+          content: url(images/css-logo.png);
+          float: left;
+        }
+
+        #main-conteiner p.bold {
+          font-weight: bold;
+        }
+
+        #main-conteiner section {
+          margin-bottom: 15px;
+        }
+
+                #main-conteiner section#tutorial-section {
+                  margin-bottom: 40px;
+                }
+
+a.red {
+  color: #A53A39;
+}
+
+#links-conteiner {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+}
+
+        #links-conteiner h4 {
+          margin: 0;
+          font-size: 14px;
+          background-color: #808080;
+          color: white;
+          text-align: center;
+        }
+
+        #links-conteiner ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+
+                #links-conteiner ul li {
+                  margin-bottom: 2px;
+                  padding: 5px;
+                  border: 1px solid #808080;
+                  text-align: center;
+                }
+
+                        #links-conteiner ul li #search-input {
+                          margin-bottom: 5px;
+                          width: 80px;
+                        }
+
+        #links-conteiner #pokemon-logo {
+          content: url(images/pokemon-logo.png);
+          display: inline-block;
+        }

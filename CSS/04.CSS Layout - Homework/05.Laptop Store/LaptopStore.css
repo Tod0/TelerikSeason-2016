@@ -1,0 +1,143 @@
+body {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+#page {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 1000px;
+}
+
+#nav-menu {
+  margin: 0;
+  padding: 0 0 10px 0;
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+        #nav-menu li {
+          display: inline;
+        }
+
+                #nav-menu li a {
+                  color: #1FB2F0;
+                  font-weight: bold;
+                }
+
+#content-conteiner {
+  padding-top: 10px;
+}
+
+#laptops-conteiner {
+  padding: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 642px;
+}
+
+fieldset {
+  padding: 5px;
+  position: relative;
+  width: 300px;
+  height: 170px;
+  display: inline-block;
+}
+
+legend {
+  text-align: center;
+}
+
+.laptop-image {
+  content: url(images/macbook.png);
+  display: inline-block;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+p.price {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+}
+
+p.ssd {
+  position: absolute;
+  bottom: 80px;
+}
+
+p.ram {
+  position: absolute;
+  bottom: 45px;
+}
+
+p.cpu {
+  position: absolute;
+  bottom: 10px;
+}
+
+#ranges-conteiner {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 340px;
+  height: 560px;
+}
+
+#pricemin {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+}
+
+#priceminInputId {
+  position: absolute;
+  top: 130px;
+  right: 70px;
+  width:200px;
+}
+
+#pricemax {
+  position: absolute;
+  top: 180px;
+  right: 75px;
+}
+
+#pricemaxInputId {
+  position: absolute;
+  top: 210px;
+  right: 70px;
+  width:200px;
+}
+
+#minram {
+  position: absolute;
+  top:260px;
+  right: 105px;
+}
+
+#ramminInputId {
+  position: absolute;
+  top: 290px;
+  right: 70px;
+  width:200px;
+}
+
+#maxram {
+  position: absolute;
+  top:340px;
+  right: 95px;
+}
+
+#rammaxInputId {
+  position: absolute;
+  top: 370px;
+  right: 70px;
+  width:200px;
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: #595959;
+  font-family: Verdana;
+
+}
+
+table {
+  border-spacing: 10px
+}
+
+th {
+  color: #A3A5A9;
+}
+
+td {
+  font-size: 12px;
+}
+
+.property {
+  color: white;
+  font-style: italic;
+  float: left;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+  background-color: #71B47A;
+  display: inline-block;
+}
+
+.yellowText {
+  color: #D2D08B;
+}
+
+.redText {
+  color: #FF0102;
+  display: block;
+}
+
+.grayText {
+  color: #BEBDBC;
+}
+
+.brownText {
+  color: #C6634B;
+}

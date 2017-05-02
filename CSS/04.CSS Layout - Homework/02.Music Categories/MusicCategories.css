@@ -1,0 +1,88 @@
+body {
+  font-family: Arial;
+}
+
+#main-conteiner {
+  padding: 15px;
+  background-color: #EEEEEE;
+  border-radius: 6px;
+  width: 421px;
+  height: 510px;
+}
+
+.box {
+  margin: 35px 0;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #999999;
+  position: relative;
+}
+
+#first {
+  content: url(images/first.png);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#second {
+  content: url(images/second.png);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#third {
+  content: url(images/third.png);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.listen-image {
+  margin-top: 15px;
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  bottom: 15px;
+  right: 70px;
+}
+
+.listen-text {
+  position: absolute;
+  bottom: 17px;
+  right: 85px;
+  z-index: 9999;
+  font-size: 14px;
+  color: white;
+  pointer-events: none;
+}
+
+.add-image {
+  margin-top: 15px;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.add-text {
+  position: absolute;
+  bottom: 17px;
+  right: 28px;
+  z-index: 9999;
+  font-size: 14px;
+  color: white;
+  pointer-events: none;
+}
