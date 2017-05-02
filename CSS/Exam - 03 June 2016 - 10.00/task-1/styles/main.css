@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 6px;
+  padding-top: 5px;
+  font-family: Helvetica;
+  width: 230px;
+}
+
+img {
+  width: 230px;
+  height: 230px;
+  border-radius: 5px;
+}
+
+.user-info {
+  margin-top: 7px;
+}
+
+#main-info {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #EEEEEE;
+}
+
+h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+h2 {
+  margin: 0;
+  margin-top: 1px;
+  color: #666666;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#label {
+  margin-bottom: 9px;
+  margin-top: 8px;
+  padding: 2px 1px 0 0;
+  background-color: #6CC644;
+  border-radius: 2px;
+  display: inline-block;
+  color: white;
+  font-size: 11px;
+  text-align: -webkit-center;
+  width: 30px;
+  height: 15px;
+}
+
+#main-info a {
+  margin-top: 8px;
+  text-decoration: none;
+  color: #5CA6DD;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+#details {
+  margin-bottom: 10px;
+  padding-bottom: 1px;
+  border-bottom: 2px solid #EEEEEE;
+}
+
+#details span {
+  margin-bottom: 9px;
+}
+
+#details p {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#details a {
+  text-decoration: none;
+  color: #5CA6DD;
+  font-size: 14 px;
+}
+
+.octicon-location {
+  display: inline-block;
+  color: #999999;
+}
+
+.octicon-mail {
+  display: inline-block;
+  color: #999999;
+}
+
+.octicon-clock {
+  display: inline-block;
+  color: #999999;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#git-info {
+  padding-bottom: 17px;
+  border-bottom: 2px solid #EEEEEE;
+  position: absolute;
+}
+
+#git-info span {
+  margin: 0;
+  padding: 0;
+  color: #4078C0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#git-info .followers {
+  color: #A08F76;
+  font-size: 11px;
+  display: inline-block;
+}
+
+#git-info .starred {
+  color: #A08F76;
+  font-size: 11px;  
+  display: inline-block;
+}
+
+#git-info .following {
+  color: #A08F76;
+  font-size: 11px;  
+  display: inline-block;
+}
+

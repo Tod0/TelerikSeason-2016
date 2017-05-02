@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    font-family: "Times New Roman";
+    color: #000000;
+}
+
+.avengers {
+    list-style: none;
+    position: relative;
+}
+
+.avenger {
+    padding: 10px;
+    display: inline;
+    border: 2px solid black;    
+    border-top-left-radius: 15px;
+    border-right: none;
+}
+        
+.avenger:hover {
+    border-bottom-color: white;
+    background-color: #CCCCCC;
+}
+        
+.name {
+    font-weight: bold;
+}
+        
+.preview {
+    padding: 20px;
+    display: none;
+    position: absolute;
+    background-color: #CCCCCC;
+}
+        
+.name:hover {
+    text-decoration: underline;
+}  
+      
+.name:hover + .preview {
+     display: block;
+     width: 600px;
+     height: 235px;
+}
+
+img {
+    border: 5px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    width: 400px;
+}
+
+.skills {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+.skills li {
+    margin: 20px;
+}
+
+.skills li:hover {
+    text-decoration: underline;
+}
+
+.avenger .preview .skills li::first-letter {
+    text-transform: capitalize;
+}
