@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixWalk.Core", "MatrixWalk.Core\MatrixWalk.Core.csproj", "{B3FF44ED-2F9F-49B2-B147-47EAE51B7407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixWalk.Tests", "MatrixWalk.Tests\MatrixWalk.Tests.csproj", "{BB663603-F581-4632-A645-C5F857499C1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3FF44ED-2F9F-49B2-B147-47EAE51B7407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FF44ED-2F9F-49B2-B147-47EAE51B7407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FF44ED-2F9F-49B2-B147-47EAE51B7407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FF44ED-2F9F-49B2-B147-47EAE51B7407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB663603-F581-4632-A645-C5F857499C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB663603-F581-4632-A645-C5F857499C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB663603-F581-4632-A645-C5F857499C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB663603-F581-4632-A645-C5F857499C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
